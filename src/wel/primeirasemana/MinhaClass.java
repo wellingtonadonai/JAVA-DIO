@@ -7,8 +7,11 @@ public class MinhaClass {
         int numero1 = 1;
         int numero2 = 2;
 
-        if (numero1 < numero2){
+        if (numero1 > numero2){
             System.out.println("a nossa condição é verdadeira");
+        }else{
+            System.out.println("a nossa condição é fasla");
+
         }
     }
 
