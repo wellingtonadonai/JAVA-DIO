@@ -5,9 +5,23 @@ public class Usuario {
 
         SistemaTv sistemaTv = new SistemaTv();
 
-        System.out.println("Tv ligada?" + sistemaTv.ligada);
-        System.out.println("Canal atual?" + sistemaTv.canal);
-        System.out.println("Volume atual?" + sistemaTv.volume);
+        sistemaTv.diminuirVolume();
+        sistemaTv.diminuirVolume();
+        sistemaTv.diminuirVolume();
+        sistemaTv.aumentarVolume();
+
+        System.out.println("Tv ligada? " + sistemaTv.ligada);
+        System.out.println("Canal atual? :" + sistemaTv.canal);
+        System.out.println("Volume atual? :" + sistemaTv.volume);
+
+        sistemaTv.ligar();
+        System.out.println("Novo status => Tv ligada? " + sistemaTv.ligada);
+
+        
+
+
+
+
 
 }
 
